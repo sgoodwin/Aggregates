@@ -25,6 +25,8 @@
 		9B4D7ECF191E1E5200946BDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4D7EAA191E1E5100946BDE /* CoreData.framework */; };
 		9B4D7ED7191E1E5200946BDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4D7ED5191E1E5200946BDE /* InfoPlist.strings */; };
 		9B4D7ED9191E1E5200946BDE /* AggregatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D7ED8191E1E5200946BDE /* AggregatesTests.m */; };
+		9B4D7EE6191E1ED600946BDE /* _RWSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D7EE3191E1ED600946BDE /* _RWSEvent.m */; };
+		9B4D7EE7191E1ED600946BDE /* RWSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D7EE5191E1ED600946BDE /* RWSEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		9B4D7ED4191E1E5200946BDE /* AggregatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AggregatesTests-Info.plist"; sourceTree = "<group>"; };
 		9B4D7ED6191E1E5200946BDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B4D7ED8191E1E5200946BDE /* AggregatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AggregatesTests.m; sourceTree = "<group>"; };
+		9B4D7EE2191E1ED600946BDE /* _RWSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RWSEvent.h; sourceTree = "<group>"; };
+		9B4D7EE3191E1ED600946BDE /* _RWSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RWSEvent.m; sourceTree = "<group>"; };
+		9B4D7EE4191E1ED600946BDE /* RWSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSEvent.h; sourceTree = "<group>"; };
+		9B4D7EE5191E1ED600946BDE /* RWSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 		9B4D7EAC191E1E5100946BDE /* Aggregates */ = {
 			isa = PBXGroup;
 			children = (
+				9B4D7EE2191E1ED600946BDE /* _RWSEvent.h */,
+				9B4D7EE3191E1ED600946BDE /* _RWSEvent.m */,
+				9B4D7EE4191E1ED600946BDE /* RWSEvent.h */,
+				9B4D7EE5191E1ED600946BDE /* RWSEvent.m */,
 				9B4D7EB5191E1E5100946BDE /* RWSAppDelegate.h */,
 				9B4D7EB6191E1E5100946BDE /* RWSAppDelegate.m */,
 				9B4D7EB8191E1E5100946BDE /* Main.storyboard */,
@@ -267,6 +277,8 @@
 				9B4D7EC3191E1E5100946BDE /* RWSDetailViewController.m in Sources */,
 				9B4D7EB3191E1E5100946BDE /* main.m in Sources */,
 				9B4D7EBD191E1E5100946BDE /* Aggregates.xcdatamodeld in Sources */,
+				9B4D7EE7191E1ED600946BDE /* RWSEvent.m in Sources */,
+				9B4D7EE6191E1ED600946BDE /* _RWSEvent.m in Sources */,
 				9B4D7EB7191E1E5100946BDE /* RWSAppDelegate.m in Sources */,
 				9B4D7EC0191E1E5100946BDE /* RWSMasterViewController.m in Sources */,
 			);
