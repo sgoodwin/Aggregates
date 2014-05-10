@@ -10,6 +10,8 @@
 
     NSString *key = @"poopin";
     NSExpression *argument = [NSExpression expressionForKeyPath:@"price"];
+    
+    // This could be sum, min, max, average, whatever you like.
     NSExpression *mathExpression = [NSExpression expressionForFunction:@"sum:" arguments:@[argument]];
     NSExpressionDescription *mathDescription = [[NSExpressionDescription alloc] init];
     mathDescription.expression = mathExpression;
